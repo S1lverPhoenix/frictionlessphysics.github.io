@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutoring Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#who-are-we">Who Are We?</a></li>
+            <li><a href="#lesson-plans">Lesson Plans</a></li>
+            <li><a href="#contact-us">Contact Us!</a></li>
+            <li><button id="sign-in-btn">Sign In</button></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1>FRICTIONLESS PHYSICS!</h1>
+    </section>
+
+    <section id="who-are-we">
+        <h2>Who Are We?</h2>
+        <div class="photo-container">
+        <!--Ishan-->
+            <div class = "profile">
+                <img src="https://via.placeholder.com/300x350" alt="photo" class="photo">
+                <p>Introduce yourself!!</p>
+            </div>
+        <!--Anika-->
+            <div class = "profile">
+                <img src="https://via.placeholder.com/300x350" alt="photo" class="photo">
+                <p>Introduce Yourself x2</p>
+            </div>
+        </div>
+    </section>
+
+   <!--How do I split this into two parallel text columns bruh-->
+    <section id="lesson-plans">
+        <h2>Lesson Plans</h2>
+        <div class = "lesson-plans">
+            <div class = "mechanics">
+                <p>*List Mechanics info*</p>
+            </div>    
+            <div class="em">
+                <p>*List Electrostatics and Magnetism info*</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-us">
+        <button id="contact-btn">Contact Us!</button>            
+        <!--<h2>Contact Us!</h2>
+        <p>frictionlessphysics@gmail.com</p>-->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Frictionless Physics. All rights reserved.</p>
+    </footer>
+
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <span class="close-btn" id="close-popup">&times;</span>
+            <h2>Sign In</h2>
+            <form id="login-form">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Sign In</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
