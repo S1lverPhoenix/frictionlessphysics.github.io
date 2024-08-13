@@ -19,7 +19,18 @@ document.addEventListener('DOMContentLoaded', function () {
 
     sections.forEach(section => observer.observe(section));
 
-    // Contact Us button 
-    const contactUsBtn = document.getElementById('contact-btn');
-    //contactUsBtn.addEventListener('click', () => popup.style.display = 'flex'); --> replace with link to gmail with our email (google how to do this)
+    // document.getElementById("contact-btn").onclick = function() {
+    //     var emailLink = document.createElement('a');
+    //     emailLink.href = "mailto:yourbusiness@example.com";
+    //     emailLink.click();
+    
+    //     // Fallback if mailto doesn't work
+    //     setTimeout(function() {
+    //         if (!document.hasFocus()) {
+    //             return;
+    //         }
+    //         document.getElementById("fallback").style.display = "block";
+    //     }, 1000);
+    // };
 });
+
