@@ -39,4 +39,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Observe each section for intersection events
     sections.forEach(section => observer.observe(section));
+<<<<<<< HEAD
+=======
+
+    // Contact Us button 
+    const contactUsBtn = document.getElementById('contact-btn');
+    //contactUsBtn.addEventListener('click', () => popup.style.display = 'flex'); --> replace with link to gmail with our email (google how to do this)
+>>>>>>> parent of c1c6f7d... Contact button
 });
