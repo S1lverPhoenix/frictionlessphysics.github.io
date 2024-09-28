@@ -47,6 +47,9 @@ document.addEventListener('DOMContentLoaded', function () {
     //contactUsBtn.addEventListener('click', () => popup.style.display = 'flex'); --> replace with link to gmail with our email (google how to do this)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of c1c6f7d... Contact button
+=======
 >>>>>>> parent of c1c6f7d... Contact button
 =======
 >>>>>>> parent of c1c6f7d... Contact button
